@@ -2,7 +2,8 @@ dist: trusty
 sudo: required
 language: bash
 before_install:
-- /home/dima/Git/solaryssky_infra/run.sh
+- curl https://raw.githubusercontent.com/solaryssky/otus_tmp/master/run.sh | 
+  bash
 notifications:
   slack:
     rooms:
