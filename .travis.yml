@@ -2,8 +2,7 @@ dist: trusty
 sudo: required
 language: bash
 before_install:
-- curl https://github.com/Otus-DevOps-2020-05/solaryssky_infra/tree/play-travis/run.sh | 
-  bash
+- /home/dima/Git/solaryssky_infra/run.sh
 notifications:
   slack:
     rooms:
