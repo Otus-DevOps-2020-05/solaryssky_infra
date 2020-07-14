@@ -1,0 +1,10 @@
+dist: trusty
+sudo: required
+language: bash
+before_install:
+- curl https://raw.githubusercontent.com/solaryssky/otus_tmp/master/run.sh  | 
+  bash
+notifications:
+  slack:
+    rooms:
+      secure: MpwXzjLD+KPpNOJPnxtfocdu240l/A1AVfprICp4sJT1rPpa3Qx7zEuxVBtgghufnWENzpsZk4s5VE7C1ljkrJxba4JA9xkz2K+eewvTEQ4n34IL0ET63TwM9IzxdGgpYZCbzFkjxMG67qNtb6f+goozvFm4dm0DcXiQ+gwNILsgGWrWLQUovflWGr7ogKFDqUGSCg+/6LjQ73R9qcmkA3TRElmOjkj9B1kGd3fWdaN7fzXlg7aukc/6lkh/HneMBMXB7AlGGPSCkH4YYrWtQRgwkNNhWbvYmcwBRMLuTJrou35j3jwhRA4yFZmesjAYQ7yByBj8Fp7Bi46luHMExMdW+v6ujrGdzJElYfKflihHEWae1lOJlsxq01sVFJKrn4amvOHOqBQffvgTYpXMglHAtpFngJT6MVIoJE+j0ifQGkyBEkCiXgwFFyGxFLwGlCEA9C1NJFu77US4diWFQh2GBZn4MgXEmJDI26g18lUhxFA4XAdYp53qoYX5Ppd3k5ztUp+thSrXmJ/QeTwgvO+HOtjdU+5OF5nUPdjIx2rMUgDtrHfoupMJkzMTTqQiMhLXJHGL3tZ2zmTytG+O7BAi+1ccp8b/9HE88dobk2MFGH8XCKcFspT+Fo+vggrUg1YatsqZdcvVlr7+v2nGwoxHemN6WYRRg7aSqKha5Dw=
